@@ -3,7 +3,7 @@
 // 기본 도형 클래스 //
 class Shape {
 public:
-    // 가상 함수로 선언하여 도형마다 넓이를 계산할 수 있도록 함
+    // 함수로 선언하여 도형마다 넓이를 계산할 수 있도록 함
     virtual double calculateArea() const = 0;
 };
 
