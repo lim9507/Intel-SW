@@ -36,3 +36,4 @@ void softPwmWrite(int pin, int val);<br/>
 -------------
 sudo rpi-update 499d382<br/>
 sudo reboot<br/>
+sudo apt install net-tools  // ifconfig 명령어를 쓰기 위한<br/>
