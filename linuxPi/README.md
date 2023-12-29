@@ -31,3 +31,8 @@ int softPwmCreate(int pin, int init, int pwmRange);<br/>
 -int 펄스폭, -pwmRange 주기<br/>
 void softPwmWrite(int pin, int val);<br/>
 -val: init / pwmRange(0 ~ pwmRange)<br/>
+-------------
+-------------
+-------------
+sudo rpi-update 499d382<br/>
+sudo reboot<br/>
